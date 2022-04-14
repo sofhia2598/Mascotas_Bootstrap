@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header {
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 80px;
+    flex-direction: row;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 10%)
+}
+
+nav ul{
+    text-align: center;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    width: 8%;
+    padding: 5px 10px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 400; 
+}
+
+nav li:hover {
+    background-color: aquamarine;
+}
+
+#logo_nav{
+    width: 50px;
+}

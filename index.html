@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css_bootstrap/bootstrap.css">  <!-- Bootstrap CSS -->
+    <!-- Nuestro CSS -->
+  <link rel="stylesheet" href="./estilos.css">
+  <title>Inicio</title>
+</head>
+<body>
+  <!-- Navgación -->
+  <header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="./pages/adoptar.html">Adoptar</a></li>
+				<li><a href="./pages/donar.html">Donar</a></li>
+				<li><img id="logo_nav" src="./images/logo1.jpg" alt="logo sitio"></li>
+				<li><a href="./pages/ser_voluntario.html">Ser voluntario</a></li>
+				<li><a href="./pages/consultas.html"">Consultas</a></li>
+				<li><a href="pages/blog.html">Blog</a></li>
+			</ul>
+		</nav>
+	</header>
+  <!-- FIN Navgación -->
+
+  <!-- Carrusel hero -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/HERO1.jpg" class="d-block w-100" alt="dog1">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/HERO2.jpg" class="d-block w-100" alt="DOG2">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/hero3.jpg" class="d-block w-100" alt="dog3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   <!-- Fin Carrusel hero -->
+   <!-- Texto abajo del hero-->
+   <h1 class="text-center">Center aligned text on all viewport sizes.</h1> 
+   <p class="text-center">Center aligned text on all viewport sizes.</p> 
+  <!-- FIN Texto abajo del hero-->
+
+   <!-- 4 beneficios -->
+   <div class="container">
+    <div class="row justify-content-evenly">
+      <div class="card" class="col-6 col-md-3" style="width: 18rem;">
+        <img src="./images/adopcion_responsable.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Adopción responsable</p>
+        </div>
+      </div>
+
+      <div class="card" class="col-6 col-md-3" style="width: 18rem;">
+        <img src="./images/nuevo_amigo.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Nuevo amigo noble y agradecido</p>
+        </div>
+      </div>
+
+      <div class="card" class="col-6 col-md-3" style="width: 18rem;">
+        <img src="./images/salud_cuidados.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Salud y cuidados</p>
+        </div>
+      </div>
+
+      <div class="card" class="col-6 col-md-3" style="width: 18rem;">
+        <img src="./images/unico_especial.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Único y especial</p>
+        </div>
+      </div>
+      </div>
+  </div>
+  <!-- FIN 4 beneficios -->
+
+  <!-- servicios -->
+  <div class="row justify-content-evenly">
+    <div class="col-4" >
+      <h3>Adopta</h3>
+			<p>Todos ellos están esperando la oportunidad de formar parte de una familia.</p>
+			<button type="button" class="btn btn-primary">Adoptar</button>
+    </div>
+    <div class="col-4">
+      <img class="img-thumbnail"  id="s2_adoptar_principal" src="./images/s2_adoptar_principal.jpg" alt="s2_adoptar_principal">
+    </div>
+  </div>
+
+  <div class="row justify-content-evenly">
+    <div class="col-4">
+      <img class="img-thumbnail"  id="s2_adoptar_principal" src="./images/s2_adoptar_principal.jpg" alt="s2_adoptar_principal">
+    </div>
+    <div class="col-4" >
+      <h3>Adopta</h3>
+			<p>Todos ellos están esperando la oportunidad de formar parte de una familia.</p>
+			<button type="button" class="btn btn-primary">Apadrinar</button>
+    </div>
+  </div>
+
+  <div class="row justify-content-evenly">
+    <div class="col-4" >
+      <h3>Adopta</h3>
+			<p>Todos ellos están esperando la oportunidad de formar parte de una familia.</p>
+			<button type="button" class="btn btn-primary">Donar</button>
+    </div>
+    <div class="col-4">
+      <img class="img-thumbnail"  id="s2_adoptar_principal" src="./images/s2_adoptar_principal.jpg" alt="s2_adoptar_principal">
+    </div>
+  </div>
+  <!-- fin servicios -->
+
+  <!--sección de voluntarios-->
+  <img src="./images/voluntarios.jpg" class="img-fluid" alt="voluntarios">
+  <!--FIN sección de voluntarios-->
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
